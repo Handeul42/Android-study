@@ -1,0 +1,31 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:columnCount="4">
+
+    <Button android:text="A" />
+    <Button android:text="B" />
+    <Button android:text="C" />
+    <Button android:text="D" />
+    <Button android:text="E" />
+    <Button android:text="F" />
+    <Button android:text="G" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:rowCount="4">
+        <Button android:text="I" />
+        <Button android:text="J"
+            android:layout_row="3"
+            android:layout_column="0"/>
+        <Button android:text="K" />
+        <Button android:text="L" />
+        <Button android:text="M" />
+        <Button android:text="N" />
+        <Button android:text="O" />
+    </GridLayout>
+
+</GridLayout>

@@ -1,4 +1,4 @@
-package me.hajoo.ch7
+package me.hajoo.ch7_layout
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,9 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(R.layout.linear_layout)
-//        setContentView(R.layout.relative_layout)
-//        setContentView(R.layout.grid_layout)
-        setContentView(R.layout.constraint_layout)
+        setContentView(R.layout.activity_main)
     }
 }

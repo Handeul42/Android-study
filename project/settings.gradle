@@ -16,3 +16,4 @@ rootProject.name = "study"
 include ':app'
 include ':ch6_view'
 include ':ch7'
+include ':ch7_layout'
